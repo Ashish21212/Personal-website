@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+html{
+  font-size: 10px;
+}
+/* .......Navbar CSS....... */
+.nav{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #57375D;
+height: 4rem;
+color: #ffffff;
+
+  
+}
+.right_nav{
+  margin-left: 10rem;
+  font-size: 1.8rem;
+}
+
+.left_nav{
+  margin-right: 10rem;
+  font-size:1.5rem ;
+}
+.left_nav a{
+color: #ffffff;
+text-decoration: none;
+margin-left: 3rem;
+}
+.left_nav a:hover{
+  color: #ff008c;
+  
+}
+/* ......... Intro CSS .... */
+.intro_place{
+  display: flex;
+  width: 100%;
+}
+.right_place{
+ width: 50%;
+
+
+}
+.left_place{
+width: 60rem;
+font-size: 1.8rem;
+color: #FF3FA4;
+margin-top: 20rem;
+margin-left:10rem ;
+font-family: 'Bruno Ace SC', cursive;
+
+}
+
+.left_place img{
+  width: 35rem;
+  height: 35rem;
+}
+.namee{
+  color: #FF9B82;
+}
+.prof{
+  color: #FF9B82;
+}
+.line{
+  border: 1px solid #FF3FA4;
+  margin-top: 9rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+/* ...........Detail..... */
+.work{
+  margin: 3rem 0 0 13rem;
+}
+.work p{
+  color:#FF9B82;
+  font-size: 1.3rem;
+}
+.work h2{
+  color: #FF3FA4;
+  font-size: 2rem;
+}
+.box{
+  display: flex;
+  width:75vw;
+  height:0.2rem;
+  background-color: #57375D;
+  margin: 4rem 13rem 0 16rem;
+}
+/* -----------DEvertical----------- */
+.vertical{
+
+float: left;
+  width: 0.1rem;
+  height: 8rem;
+  background-color: #57375D;
+  margin: 0 0 0 23rem;
+}
+.vertical img{
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  top:-2.1rem;
+  right: 1rem;
+}
+.cand{
+  position: relative;
+  top: 5rem;
+  color: #FF3FA4;
+}
+.cand-text{
+  position:relative;
+  top: 5rem;
+  width: 10rem;
+  color: #FF9B82;
+  
+}
+.upper_footer{
+  display:flex;
+  width: 100%;
+  background-color: #9955a5;
+  position: relative;
+  top: 20rem;
+  height: 15rem;
+  align-items: center;
+
+
+  
+  
+}
+.right_footer{
+width:45%;
+color: #ffffff;
+font-size:1.7rem ;
+margin-left: 20rem;
+align-items: center;
+
+}
+.left_footer{
+  width: 45%;
+ color: #ffffff;
+  font-size:1.5rem;
+  margin-left: 20rem;
+}
+.main_footer{
+  background-color: #57375D;
+  position: relative;
+  top: 20rem;
+  height: 4rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top:0.5rem ;
+}
