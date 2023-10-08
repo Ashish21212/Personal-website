@@ -5,12 +5,14 @@ import Detail from './Detail';
 import data from './Adata';
 import Devertical from './Devertical';
 import Footers from './Footers';
+import Time from './Time';
 
 const App=()=>{
     return(
         <>
         <Navbar/>
         <Intro/>
+        <Time/>
         <Detail/>
        <Devertical
      imgsrc={data[0].imgsrc}
