@@ -173,3 +173,54 @@ align-items: center;
   font-size: 1.9rem;
   margin: 0.5rem 0 0 97rem;
 }
+/* ----------SKILLNOTE---------- */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.incontainer{
+  width: 25rem;
+  height: 35rem;
+ 
+  border-radius: 1rem;
+  
+}
+.incontainer h1{
+  color: #ff008c;
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.incontainer input{
+  border: none;
+  outline: none;
+  margin:0.6rem 0 0 1rem;
+  width: 18rem;
+  height: 3rem;
+  border-bottom: 1px solid  #ff008c;
+  
+}
+.incontainer button{
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1rem;
+  background-color:plum ;
+  border: #ffffff;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.incontainer ul li{
+  margin:1rem 0 0 1rem;
+  font-size: 1.3rem;
+  color: #ff008c;
+  list-style-type: none;
+}
+.icon_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}

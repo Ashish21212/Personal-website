@@ -6,6 +6,7 @@ import data from './Adata';
 import Devertical from './Devertical';
 import Footers from './Footers';
 import Time from './Time';
+import SkillNote from './SkillNote';
 
 const App=()=>{
     return(
@@ -13,6 +14,7 @@ const App=()=>{
         <Navbar/>
         <Intro/>
         <Time/>
+        <SkillNote/>
         <Detail/>
        <Devertical
      imgsrc={data[0].imgsrc}
